@@ -1,0 +1,146 @@
+.btn-menu {
+  display: none;
+}
+
+/* Estilo del encabezado */
+.header {
+  position: fixed;
+  top: 0;
+  background: var(--morado4); /* Fondo del encabezado */
+  display: flex; /* Flexbox para alineación */
+  justify-content: center; /* Espacia elementos a los extremos */
+  align-items: center; /* Centra elementos verticalmente */
+  height: 85px; /* Altura del encabezado */
+  width: 100%;
+  padding: 5px 7%; /* Relleno alrededor del encabezado */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Contenedor del logo o imagen del usuario */
+.header .div-logo {
+  cursor: pointer; /* Cambia el cursor al pasar por el logo */
+}
+
+/* Estilo del logo o imagen del usuario */
+.header .div-logo img {
+  height: 70px; /* Altura del logo */
+  width: auto; /* Ancho ajustable automáticamente */
+  border-radius: 100%; /* Logo circular */
+  opacity: 0.9; /* Opacidad del logo */
+  border: 1px solid rgba(45, 79, 78, 0);
+  transition: all 0.4s; /* Transición suave */
+  transform-origin: center; /* Origen de la transformación centrado */
+  backface-visibility: hidden; /* Mejora la nitidez */
+  will-change: transform; /* Avisar al navegador sobre la transformación */
+}
+
+.div-logo-responsivo {
+  display: none;
+}
+
+/* Efecto hover del logo */
+.header .div-logo img:hover {
+  transform: scale(1.05); /* Escala el logo */
+  border: 1px solid rgba(45, 79, 78, 0.5);
+  box-shadow: -3px 3px 5px rgba(45, 79, 78, 0.4); /* Sombra tenue debajo del encabezado */
+  opacity: 1; /* Opacidad completa */
+}
+
+/* Contenedor de los enlaces de la barra de navegación */
+.header .nav-links {
+  list-style: none; /* Elimina los estilos de lista predeterminados */
+}
+
+/* Estilo de los enlaces de la barra de navegación */
+.header .nav-links li {
+  display: inline-block; /* Muestra los elementos en línea */
+  padding: 5px 25px; /* Espaciado horizontal */
+  backface-visibility: hidden; /* Mejora la nitidez */
+  transition: all 0.3s; /* Transición suave */
+}
+
+/* Efecto hover de los enlaces de la barra de navegación */
+.header .nav-links li:hover {
+    transform: scale(1.05);
+    transform-origin: center center;
+}
+
+.active {
+  font-weight: bold; /* Cambiar el peso de la fuente */
+}
+
+/* Estilo de los enlaces de la barra de navegación */
+.header .nav-links .links {
+  font-size: 15px; /* Tamaño de fuente */
+  color: var(--blanco1); /* Color del texto */
+  text-decoration: none; /* Elimina subrayado */
+  text-shadow: -3px 5px 3px rgba(45, 79, 78, 0.4);
+  transition: all 0.4s; /* Transición suave */
+}
+
+.li-buscador {
+  font-size: 15px;
+  border-radius: 20px;
+  color: var(--morado4);
+  padding: 5px;
+}
+
+.div-session {
+  padding-left: 50px;
+}
+
+.a-session {
+  align-items: flex-end;
+  text-decoration: none;
+  color: var(--blanco1);
+  font-size: 13px;
+}
+
+.header .nav-links .links:after {
+  content: "";
+  position: absolute;
+  background-color: var(--blanco1);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.header .nav-links .links:hover:after {
+  width: 100%;
+}
+
+.menu-desplegable {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  border-radius: 3px;
+  height: auto;
+  background-color: var(--blanco2);
+  transition: all 0.5s;
+}
+
+.menu-desplegable :hover {
+  background-color: var(--blanco3);
+  width: auto;
+}
+
+.nav-links li:hover .menu-desplegable {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.a-categoria {
+  color: var(--negro);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}

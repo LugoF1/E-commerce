@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compus</title>
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/utilities.css">
+    <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <button class="btn-menu" id="btn-abrir-menu">
+          <i class="fa-solid fa-bars fa-lg btn-menu-cerrado"></i>
+        </button>
+        <nav class="nav" id="nav-menu">
+          <div class="div-menu">
+            <button class="btn-menu" id="btn-cerrar-menu">
+              <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+          </div>
+          <ul class="nav-links">
+            <li>
+              <a href="#" class="active links"
+                >Menu</a>
+            </li>
+            <li>
+              <a href="HTML/Computadoras.html" class="disable links"
+                >Computadoras</a>
+            </li>
+            <li>
+              <a class="disable links">Productos</a>
+                <ul class="menu-desplegable" id="menu-desplegable">
+                </ul>
+            </li>
+            <li>
+              <input type="text" class="li-buscador" placeholder="Buscar">
+            </li>
+          </ul>
+        </nav>
+        <div class="div-session">
+            <a href="#" class="a-session">Iniciar Sesion</a>
+        </div>
+      </header>
+      <!-- Encabezado  Fin :D-->
+
+      <!-- Contenedor Productos -->
+    <section class="products contenedor"></section>
+  
+<script src="src/js/categorias.js"></script>
+<script src="src/js/productos.js"></script>
+</body>
+</html>

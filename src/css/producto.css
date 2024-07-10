@@ -1,0 +1,58 @@
+/* Producto.html */
+.productoCont{
+    margin-top: 10rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 720px) {
+    .productoCont{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.product-img{
+    grid-column: 1/3;
+}
+.product-info{
+    grid-column: 3/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.product-name{
+    font-size: 3rem;
+}
+.product-descripcion{
+    font-size: 1.5rem;
+}
+.feature{
+    font-size: 1.5rem;
+
+}
+.product-info2 p{
+    font-size: 1.5rem; 
+}
+.product-info2 p span{
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.btn{
+    color: var(--blanco1);
+    padding: .1rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.addCart{
+    background-color: var(--morado3);
+}
+.buyNow{
+    background-color: var(--negro);
+}

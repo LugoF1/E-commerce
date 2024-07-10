@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "nombre": "Tarjeta Gráfica GTX 1080",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Tarjetas Gráficas",
+      "marca": "NVIDIA",
+      "modelo": "GTX 1080",
+      "precio": 499.99,
+      "stock": 15,
+      "descripcion_corta": "Potente tarjeta gráfica para gaming.",
+      "descripcion_completa": "La GTX 1080 de NVIDIA ofrece un rendimiento excepcional para juegos y aplicaciones de gráficos intensivos, con 8GB de memoria GDDR5X y soporte para VR."
+    },
+    {
+      "id": 2,
+      "nombre": "Procesador Intel i7-9700K",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Procesadores",
+      "marca": "Intel",
+      "modelo": "i7-9700K",
+      "precio": 379.99,
+      "stock": 25,
+      "descripcion_corta": "Procesador de alto rendimiento para multitarea.",
+      "descripcion_completa": "El Intel Core i7-9700K es un procesador de octava generación con 8 núcleos y 8 hilos, perfecto para tareas intensivas y gaming de alta calidad."
+    },
+    {
+      "id": 3,
+      "nombre": "Memoria RAM Corsair Vengeance 16GB",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Memoria RAM",
+      "marca": "Corsair",
+      "modelo": "Vengeance LPX",
+      "precio": 89.99,
+      "stock": 50,
+      "descripcion_corta": "Memoria RAM DDR4 de alto rendimiento.",
+      "descripcion_completa": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz C16 ofrece un rendimiento superior y es ideal para gaming y tareas multitarea."
+    },
+    {
+      "id": 4,
+      "nombre": "Disco Duro SSD Samsung 970 EVO 1TB",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Almacenamiento",
+      "marca": "Samsung",
+      "modelo": "970 EVO",
+      "precio": 149.99,
+      "stock": 30,
+      "descripcion_corta": "SSD NVMe de alta velocidad.",
+      "descripcion_completa": "El Samsung 970 EVO NVMe M.2 SSD 1TB ofrece velocidades de lectura/escritura rápidas de hasta 3500/2500 MB/s, ideal para mejorar la velocidad de tu PC."
+    },
+    {
+      "id": 5,
+      "nombre": "Placa Base ASUS ROG Strix Z390-E",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Placas Base",
+      "marca": "ASUS",
+      "modelo": "ROG Strix Z390-E",
+      "precio": 229.99,
+      "stock": 20,
+      "descripcion_corta": "Placa base de alto rendimiento para gaming.",
+      "descripcion_completa": "La ASUS ROG Strix Z390-E es compatible con procesadores Intel de 9ª y 8ª generación, ofreciendo un rendimiento excepcional y soporte para overclocking."
+    },
+    {
+      "id": 6,
+      "nombre": "Fuente de Poder EVGA 750W",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Fuentes de Poder",
+      "marca": "EVGA",
+      "modelo": "750 GQ",
+      "precio": 109.99,
+      "stock": 40,
+      "descripcion_corta": "Fuente de poder modular de 750W.",
+      "descripcion_completa": "EVGA 750 GQ, 80+ Gold 750W, Semi Modular, ofrece un rendimiento eficiente y fiable para sistemas de alto rendimiento."
+    },
+    {
+      "id": 7,
+      "nombre": "Monitor Dell 27 Pulgadas 4K",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Monitores",
+      "marca": "Dell",
+      "modelo": "UltraSharp U2718Q",
+      "precio": 499.99,
+      "stock": 10,
+      "descripcion_corta": "Monitor 4K de 27 pulgadas con colores precisos.",
+      "descripcion_completa": "El monitor Dell UltraSharp U2718Q ofrece una resolución 4K UHD, precisión de color y un diseño sin bordes, ideal para profesionales y gamers."
+    },
+    {
+      "id": 8,
+      "nombre": "Teclado Mecánico Logitech G Pro",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Teclados",
+      "marca": "Logitech",
+      "modelo": "G Pro",
+      "precio": 129.99,
+      "stock": 35,
+      "descripcion_corta": "Teclado mecánico compacto para eSports.",
+      "descripcion_completa": "Logitech G Pro es un teclado mecánico compacto y portátil, diseñado para eSports con interruptores Romer-G y retroiluminación RGB."
+    },
+    {
+      "id": 9,
+      "nombre": "Ratón Gamer Razer DeathAdder Elite",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Ratones",
+      "marca": "Razer",
+      "modelo": "DeathAdder Elite",
+      "precio": 69.99,
+      "stock": 45,
+      "descripcion_corta": "Ratón gamer ergonómico con alta precisión.",
+      "descripcion_completa": "Razer DeathAdder Elite ofrece un sensor óptico avanzado de 16,000 DPI, diseño ergonómico y botones mecánicos, ideal para sesiones de juego prolongadas."
+    },
+    {
+      "id": 10,
+      "nombre": "Auriculares HyperX Cloud II",
+      "imagen": "src/img/gtx1080.jpg",
+      "categoria": "Auriculares",
+      "marca": "HyperX",
+      "modelo": "Cloud II",
+      "precio": 99.99,
+      "stock": 60,
+      "descripcion_corta": "Auriculares gaming con sonido envolvente 7.1.",
+      "descripcion_completa": "HyperX Cloud II ofrece sonido envolvente 7.1, comodidad superior con almohadillas de espuma viscoelástica y un micrófono desmontable con cancelación de ruido."
+    }
+  ]
+  
