@@ -4,6 +4,7 @@
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 40rem;
 }
 @media (min-width: 720px) {
     .productoCont{
@@ -13,6 +14,7 @@
 }
 .product-img{
     grid-column: 1/3;
+    max-height: 40rem;
 }
 .product-info{
     grid-column: 3/5;
