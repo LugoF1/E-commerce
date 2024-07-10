@@ -40,16 +40,25 @@ function mostrarProductos(data){
         const divBtn = document.createElement('DIV');
         divBtn.classList.add('product-buttons');
 
+        const divInfo = document.createElement('DIV');
+        const divAll = document.createElement('DIV');
+
         const card = document.createElement('DIV');
         card.classList.add('card-product');
 
         divBtn.appendChild(btnMore);
         divBtn.appendChild(btnCart);
 
+        divInfo.appendChild(h2);
+        divInfo.appendChild(p);
+
+        divAll.appendChild(divInfo);
+        divAll.appendChild(divBtn);
+
         card.appendChild(image);
-        card.appendChild(h2);
-        card.appendChild(p);
-        card.appendChild(divBtn);
+        card.appendChild(divAll);
+        // card.appendChild(p);
+        // card.appendChild(divBtn);
 
         productosContenedor.appendChild(card);
     })
