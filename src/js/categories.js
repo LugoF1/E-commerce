@@ -2,20 +2,16 @@ document.addEventListener('DOMContentLoaded', obtenerProducto);
 
 const productosContenedor = document.querySelector('.products');
 function obtenerProducto(){
-    // Obtener la URL actual
+
 const urls = new URL(window.location.href);
-
-// Obtener los parámetros GET
 const params = new URLSearchParams(urls.search);
-
-// Acceder a un parámetro específico
 const cat = params.get('cat');
 
-    const url = `src/bd/categories.php?cat=${cat}`;
+const url = `src/bd/categories.php?cat=${cat}`;
 
-    fetch(url)
-    .then(response => response.json())
-    .then(data => mostrarProductos(data))
+fetch(url)
+.then(response => response.json())
+.then(data => mostrarProductos(data))
 }
 
 function mostrarProductos(data){
@@ -24,8 +20,8 @@ function mostrarProductos(data){
 
          const image = document.createElement('IMG');
          image.src = imagen;
-       image.classList.add('product-image');
-        image.alt = `Imagen de ${nombre}`;
+         image.classList.add('product-image');
+         image.alt = `Imagen de ${nombre}`;
          image.loading = 'lazy';
 
          const h2 = document.createElement('H2');
@@ -66,8 +62,6 @@ function mostrarProductos(data){
 
          card.appendChild(image);
          card.appendChild(divAll);
-         // card.appendChild(p);
-         // card.appendChild(divBtn);
 
         productosContenedor.appendChild(card);
      })
